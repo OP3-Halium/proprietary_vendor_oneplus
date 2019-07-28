@@ -19,13 +19,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/oneplus/oneplus3/proprietary/bin/move_time_data.sh:system/bin/move_time_data.sh \
     vendor/oneplus/oneplus3/proprietary/bin/wfdservice:system/bin/wfdservice \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/imx179_chromatix.xml:system/etc/camera/imx179_chromatix.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/s5k3p8_chromatix.xml:system/etc/camera/s5k3p8_chromatix.xml \
-    vendor/oneplus/oneplus3/proprietary/etc/camera/s5k3p8sp_chromatix.xml:system/etc/camera/s5k3p8sp_chromatix.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/imx179_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx179_chromatix.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/imx298_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_chromatix.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/s5k3p8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8_chromatix.xml \
+    vendor/oneplus/oneplus3/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
     vendor/oneplus/oneplus3/proprietary/etc/cne/wqeclient/profile1.xml:system/etc/cne/wqeclient/profile1.xml \
     vendor/oneplus/oneplus3/proprietary/etc/cne/wqeclient/profile2.xml:system/etc/cne/wqeclient/profile2.xml \
     vendor/oneplus/oneplus3/proprietary/etc/cne/wqeclient/profile3.xml:system/etc/cne/wqeclient/profile3.xml \
@@ -34,36 +34,36 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/etc/cne/wqeclient/profile6.xml:system/etc/cne/wqeclient/profile6.xml \
     vendor/oneplus/oneplus3/proprietary/etc/cne/wqeclient/profile7.xml:system/etc/cne/wqeclient/profile7.xml \
     vendor/oneplus/oneplus3/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw/mbn_ota.txt:system/etc/firmware/mbn_ota/mcfg_sw/mbn_ota.txt \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_ATT-VoLTE.mbn:system/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_ATT-VoLTE.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_CT_OpenMkt-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_CT_OpenMkt-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_CU_OpenMkt-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_CU_OpenMkt-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_CDMA-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_CDMA-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_Test-VoLTE.mbn:system/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_Test-VoLTE.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_TMO-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_TMO-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mbn_ota.txt:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mbn_ota.txt \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Airtel-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Airtel-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CU_OpenMkt-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CU_OpenMkt-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_EE-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_EE-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Elisa-VoLTE.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Elisa-VoLTE.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3G-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3G-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3GDK-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3GDK-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Idea-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Idea-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_MTNL_BSNL.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_MTNL_BSNL.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_NoCDMA-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_NoCDMA-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_Test-VoLTE.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_Test-VoLTE.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Reliance-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Reliance-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_UK-VoLTE.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_UK-VoLTE.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Vodafone-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Vodafone-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_YTL-Commercial.mbn:system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_YTL-Commercial.mbn \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/tp/fw_synaptics_15801.img:system/etc/firmware/tp/fw_synaptics_15801.img \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/tp/fw_synaptics_15801b.img:system/etc/firmware/tp/fw_synaptics_15801b.img \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/tp/fw_synaptics_15811.img:system/etc/firmware/tp/fw_synaptics_15811.img \
-    vendor/oneplus/oneplus3/proprietary/etc/firmware/tp/fw_synaptics_touchkey.img:system/etc/firmware/tp/fw_synaptics_touchkey.img \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw/mbn_ota.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw/mbn_ota.txt \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_ATT-VoLTE.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw/mcfg_sw_ATT-VoLTE.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_CT_OpenMkt-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw/mcfg_sw_CT_OpenMkt-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_CU_OpenMkt-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw/mcfg_sw_CU_OpenMkt-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_CDMA-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_CDMA-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_Test-VoLTE.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_Test-VoLTE.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_TMO-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw/mcfg_sw_TMO-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mbn_ota.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mbn_ota.txt \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Airtel-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Airtel-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CU_OpenMkt-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CU_OpenMkt-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_EE-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_EE-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Elisa-VoLTE.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Elisa-VoLTE.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3G-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3G-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3GDK-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3GDK-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Idea-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Idea-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_MTNL_BSNL.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_MTNL_BSNL.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_NoCDMA-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_NoCDMA-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_Test-VoLTE.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_Test-VoLTE.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Reliance-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Reliance-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_UK-VoLTE.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_UK-VoLTE.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Vodafone-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Vodafone-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_YTL-Commercial.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_YTL-Commercial.mbn \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/tp/fw_synaptics_15801.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/fw_synaptics_15801.img \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/tp/fw_synaptics_15801b.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/fw_synaptics_15801b.img \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/tp/fw_synaptics_15811.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/fw_synaptics_15811.img \
+    vendor/oneplus/oneplus3/proprietary/vendor/firmware/tp/fw_synaptics_touchkey.img:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/fw_synaptics_touchkey.img \
     vendor/oneplus/oneplus3/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/oneplus/oneplus3/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/oneplus/oneplus3/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
@@ -96,21 +96,21 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/oneplus/oneplus3/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/oneplus/oneplus3/proprietary/framework/uimlpalibrary.jar:system/framework/uimlpalibrary.jar \
-    vendor/oneplus/oneplus3/proprietary/lib/TC_Bayer_Converter_v6_core_opt.bin:system/lib/TC_Bayer_Converter_v6_core_opt.bin \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/TC_Bayer_Converter_v6_core_opt.bin:$(TARGET_COPY_OUT_VENDOR)/lib/TC_Bayer_Converter_v6_core_opt.bin \
     vendor/oneplus/oneplus3/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/oneplus/oneplus3/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
-    vendor/oneplus/oneplus3/proprietary/lib/libFNVfbEngineHAL.so:system/lib/libFNVfbEngineHAL.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/libFNVfbEngineHAL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFNVfbEngineHAL.so \
     vendor/oneplus/oneplus3/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/oneplus/oneplus3/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
-    vendor/oneplus/oneplus3/proprietary/lib/lib_oneplus_md.so:system/lib/lib_oneplus_md.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/lib_oneplus_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_oneplus_md.so \
     vendor/oneplus/oneplus3/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
-    vendor/oneplus/oneplus3/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/oneplus/oneplus3/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/oneplus/oneplus3/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/oneplus/oneplus3/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/oneplus/oneplus3/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/oneplus/oneplus3/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
-    vendor/oneplus/oneplus3/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/oneplus/oneplus3/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
     vendor/oneplus/oneplus3/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
     vendor/oneplus/oneplus3/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
@@ -128,17 +128,17 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
     vendor/oneplus/oneplus3/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     vendor/oneplus/oneplus3/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
-    vendor/oneplus/oneplus3/proprietary/lib/qpd_dspcl_v2.bin:system/lib/qpd_dspcl_v2.bin \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/qpd_dspcl_v2.bin:$(TARGET_COPY_OUT_VENDOR)/lib/qpd_dspcl_v2.bin \
     vendor/oneplus/oneplus3/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/oneplus/oneplus3/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/oneplus/oneplus3/proprietary/lib64/fp_hal_extension.so:system/lib64/fp_hal_extension.so \
-    vendor/oneplus/oneplus3/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib64/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fp_hal_extension.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib64/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8996.so \
     vendor/oneplus/oneplus3/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/oneplus/oneplus3/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/oneplus/oneplus3/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/oneplus/oneplus3/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/oneplus/oneplus3/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
-    vendor/oneplus/oneplus3/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
     vendor/oneplus/oneplus3/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/oneplus/oneplus3/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/oneplus/oneplus3/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
@@ -155,15 +155,15 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/oneplus/oneplus3/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
     vendor/oneplus/oneplus3/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
-    vendor/oneplus/oneplus3/proprietary/lib64/vendor.oneplus.fingerprint.extension@1.0.so:system/lib64/vendor.oneplus.fingerprint.extension@1.0.so \
-    vendor/oneplus/oneplus3/proprietary/lib64/vendor.oneplus.hardware.ifaa@2.0.so:system/lib64/vendor.oneplus.hardware.ifaa@2.0.so \
-    vendor/oneplus/oneplus3/proprietary/lib64/vendor.oneplus.hardware.param@1.0.so:system/lib64/vendor.oneplus.hardware.param@1.0.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib64/vendor.oneplus.fingerprint.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.fingerprint.extension@1.0.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib64/vendor.oneplus.hardware.ifaa@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.ifaa@2.0.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib64/vendor.oneplus.hardware.param@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.hardware.param@1.0.so \
     vendor/oneplus/oneplus3/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/oneplus/oneplus3/proprietary/lib64/vendor.qti.gnss@1.1.so:system/lib64/vendor.qti.gnss@1.1.so \
     vendor/oneplus/oneplus3/proprietary/lib64/vendor.qti.gnss@1.2.so:system/lib64/vendor.qti.gnss@1.2.so \
     vendor/oneplus/oneplus3/proprietary/lib64/vendor.qti.gnss@2.0.so:system/lib64/vendor.qti.gnss@2.0.so \
     vendor/oneplus/oneplus3/proprietary/lib64/vendor.qti.gnss@2.1.so:system/lib64/vendor.qti.gnss@2.1.so \
-    vendor/oneplus/oneplus3/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/oneplus/oneplus3/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/oneplus/oneplus3/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/oneplus/oneplus3/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
